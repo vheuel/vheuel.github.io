@@ -1,4 +1,4 @@
-﻿
+
 
 /***** BOS KALO COMOT KODE MINIMAL HARGAIN CREATORNYA DONG, MINIMAL FOLLOW SOSMED GW KEK *****/
 
@@ -859,10 +859,14 @@ height:3rem}
 display: block;
 justify-content: center;
 align-items: flex-start;
-margin: 1px;
+margin:2rem 2rem 2rem calc(40vw + 2rem);
 animation:reveal 2s ease forwards 750ms;
 opacity:0}
-@media (max-width: 767.98px){.custom-container{margin:3rem}}
+
+@media (max-width: 767.98px){.custom-container{margin:2rem}}
+
+@media (min-width: 767.98px){.custom-container{ margin:2 rem; height:100%;}}
+
 @media (min-width: 1200px){.custom-container{
 height: 100%;
 margin: 2rem 2rem 2rem calc(40vw + 2rem);
@@ -1150,16 +1154,25 @@ display:block;
 
    .me {
 justify-content: center;
-display: flex;
-            
-                }
+display: flex;        }
+
+
+@media (min-width: 767.98px){
+
+.social img {height: 2em}
+.social {margin-top: -5em;}
+.me{
+min-height: 10%;
+width: 100%;
+display: block;
+text-align: center;
+}}
 
 @media (min-width: 1200px){.me{
 min-height: 40%;
 width: 100%;
 display: block;
 text-align: center;
-
 }}
 
 .bio {display:block;}
